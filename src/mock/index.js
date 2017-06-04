@@ -29,6 +29,7 @@ class MockApi {
                 fn(this.mockApi);
             }
         });
+        MockApi.handlers = [];
     };
 }
 // 添加静态方法
