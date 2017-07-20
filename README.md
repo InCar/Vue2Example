@@ -37,20 +37,28 @@ webpack
  |---static          #静态资源 images, styles, fonts
  |---src
     |---js       #全局公共libs
-        |---directives    #全局指令配置   调用方法 略
-        |---filters       #全局过滤配置   调用方法 略
-        |---utils         #全局libs配置   调用方法 同常量
-            |---baseService.js         #全局service配置   调用方法 略
-            |---dom.js                 #全局dom方法    调用方法 Vue(this)._hyDom[名称]
-            |---event.js               #全局events兼容 调用方法 Vue(this)._hyEvent[名称]
-            |---tool.js                #全局tool配置   调用方法 Vue(this)._hyTool[名称]
-        |---index.js      #libs对外api
- |---components  #组件
- 	|---common     		#全局公共组件
- |---page        #主view
- |---router      #路由文件
- |---service     #service	
- 	 |---baseService     
+    	|---core       #全局公共libs
+	        |---directives    #全局指令配置   调用方法 略
+	        |---filters       #全局过滤配置   调用方法 略
+	        |---utils         #全局libs配置   调用方法 同常量
+	            |---baseService.js         #全局service配置   调用方法 略
+	            |---dom.js                 #全局dom方法    调用方法 Vue(this)._hyDom[名称]
+	            |---event.js               #全局events兼容 调用方法 Vue(this)._hyEvent[名称]
+	            |---tool.js                #全局tool配置   调用方法 Vue(this)._hyTool[名称]
+        	|---index.js      #libs对外api
+        |---libs       #库
+        |---mixins     #公共混合类
+ 	|---components  #组件
+ 		|---common     		#全局公共组件
+ 	|---page        #主view
+ 	|---router      #路由文件
+ 	|---images      #图标文件
+ 	|---styles      #sass文件
+ 		|---vars.scss      #scss变量文件
+ 		|---mixins.scss    #scss混合文件
+ 		|---common.scss    #公共文件
+ 	|---service     #service	
+ 	 	|---baseService     
 ......
 
   ```
