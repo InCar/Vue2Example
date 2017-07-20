@@ -28,7 +28,7 @@ npm run build
 npm run build --report
 ```
 ## 技术栈
-    vue2 + vue-router + axios + mockjs + sass
+    vue2 + vuex + vue-router + axios + es6 + sass
 ## 目录结构
 ``` 
 webpack
@@ -50,7 +50,7 @@ webpack
  |---page        #主view
  |---router      #路由文件
  |---service     #service	
- 	 |---baseService     #基于service的封装	
+ 	 |---baseService     
 ......
 
   ```
